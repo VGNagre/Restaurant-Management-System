@@ -139,9 +139,6 @@ public class Employees extends JFrame implements ActionListener{
 	
 		setVisible(true);
 	}
-	public static void main(String[] args) {
-    	new Employees();
-		    }
 	
 	public void actionPerformed(ActionEvent e) {
 		if(e.getSource()==submit) {
